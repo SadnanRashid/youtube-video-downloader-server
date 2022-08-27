@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-fetch": "^3.2.10",
+    "ytdl-core": "^4.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "script.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
